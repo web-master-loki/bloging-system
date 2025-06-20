@@ -1,0 +1,40 @@
+.service-section {
+    background-color: #0E0E0E;
+    color: white;
+    padding: 80px 80px;
+    border-top: 1px solid white;
+  }
+  
+  .service-container {
+    margin: 0 auto;
+  }
+  
+  .service-title {
+    font-size: 24px;
+    font-weight: 600;
+    display: flex;
+    gap: 8px;
+  }
+  
+  .service-line {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 28px;
+  }
+  
+  .service1-description {
+    margin-top: 24px;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #E6E6E6;
+  }
+  
+  /* Responsive */
+  @media (min-width: 768px) {
+    .service-title {
+      font-size: 28px;
+    }
+  
+    .service1-description {
+      font-size: 18px;
+    }
+  }

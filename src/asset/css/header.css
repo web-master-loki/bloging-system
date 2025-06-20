@@ -1,0 +1,284 @@
+ /* Reset */
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  /* Header Container */
+   .header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background-color: #000;  
+    padding: 30px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.3s ease;
+  }
+  
+  .header.scrolled {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(8px);
+  }
+  
+  /* Logo + Vertical Slide */
+  .logo-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 60%;
+  }
+  
+  
+  .logo-container img {
+    height: 40px;
+  }
+  
+  .vertical-text {
+    overflow: hidden;
+    height: 24px;
+    position: relative;
+  }
+  
+  .vertical-text p {
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  
+  /* Navigation */
+  .nav-links {
+    display: flex;
+    gap: 60px;
+    font-weight: 500;
+    font-size: 15px;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #ddd;
+  }
+  
+  /* Hamburger */
+  .hamburger {
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    z-index: 100;
+  }
+  
+  /* Overlay Menu */
+  .menu-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    z-index: 99;
+  }
+  
+  /* Left Menu */
+  .menu-left {
+    flex: 1;
+    background: #000;
+    color: #fff;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  
+  }
+  
+  .menu-left img {
+    height: 40px;
+    margin-bottom:70px;
+    row-gap:100px
+  }
+  
+  .menu-left .links {
+    display: flex ;
+    width: 100%;
+    row-gap: 20px;
+    font-size: 18px;
+    line-height: 35px;
+  }
+  .hamenu {
+      display: inline-grid;
+      width: 50%;  
+  }
+  .hamenu a{
+   text-decoration: none;
+      color: white;
+  }
+  .hamenu1 {
+      display: inline-grid;
+      width: 50%;  
+  }
+  .hamenu1 a{
+   text-decoration: none;
+      color: white;
+  }
+  .social-section h1{
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  
+  .menu-left .links p {
+    cursor: pointer;
+  }
+  
+  /* Social Media */
+  .menu-left .socials {
+    display: flex;
+    gap: 25px;
+    font-size: 25px;
+  }
+  
+  /* Right Menu */
+  .menu-right {
+    flex: 1;
+    background: #0047ab;
+    color: #fff;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    row-gap: 10px;
+  }
+  .menu-right img{
+    margin-bottom: 50px;
+  }
+  .menu-right h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .menu-right p {
+    font-size: 14px;
+    margin-bottom: 50px;
+    max-width: 300px;
+  }
+  
+  .menu-right .buttons {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .menu-right button {
+    background: #fff;
+    color: #0047ab;
+    padding: 10px 18px;
+    border-radius: 25px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Close Button */
+  .menu-right .close-btn {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  .hamburger {
+    position: relative;
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .progress-ring {
+    position: absolute;
+    top: -8px;
+    left: -8px;
+    width: 44px;
+    height: 44px;
+    transform: rotate(-90deg);
+    pointer-events: none;
+  }
+  
+  .ring-bg {
+    fill: none;
+    stroke: rgba(255, 255, 255, 0.15);
+    stroke-width: 3;
+  }
+  
+  .ring-fill {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 3;
+    stroke-dasharray: 113;
+    stroke-dashoffset: 113;
+    transition: stroke-dashoffset 0.3s ease;
+  }
+  
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .logo-container {
+      width: 100%;
+    }
+    .nav-links {
+      display: none;
+    }
+  
+    .hamburger {
+      display: block;
+    }
+  
+    .logo-container img {
+      width: 100px;
+    }
+  
+    .menu-overlay {
+      flex-direction: column;
+      /* padding: 24px; */
+    }
+  
+    .menu-left, .menu-right {
+      width: 100%;
+    }
+  
+    .menu-right h2 {
+      font-size: 1.2rem;
+      text-align: center;
+    }
+  
+    .menu-right .buttons {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .menu-right .buttons button {
+      width: 100%;
+    }
+   
+  }
+  
+  

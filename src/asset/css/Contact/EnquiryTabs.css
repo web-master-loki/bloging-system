@@ -1,0 +1,202 @@
+.tabs-container {
+    background-color: #0a0a0a;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    padding: 4rem 3rem;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .tab-headers {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    margin-bottom: 3rem;
+  }
+  
+  .tab-headers button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    position: relative;
+    padding-bottom: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .tab-headers button.active::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color: white;
+  }
+  
+  .tab-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .tab-content input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #777;
+    padding: 0.8rem 0;
+    color: white;
+    font-size: 0.95rem;
+    outline: none;
+  }
+  
+  .tab-content input::placeholder {
+    color: #999;
+  }
+  
+  .tab-content button {
+    width: fit-content;
+    padding: 0.8rem 2rem;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 30px;
+    color: white;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .tab-content button:hover {
+    background-color: white;
+    color: #000;
+  }
+  
+  .direct-contact p {
+    font-size: 0.9rem;
+    color: #bbb;
+  }
+  
+  .contact-info {
+    gap: 1rem;
+    font-size: 0.9rem;
+  }
+  
+   .general-title {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    color: white;
+  }
+   .general-form-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    flex-wrap: wrap;
+  }
+  
+  .form-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 2.2rem;
+  }
+  
+  .tab-content input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #777;
+    padding: 0.8rem 0;
+    color: white;
+    font-size: 0.95rem;
+    outline: none;
+  }
+  
+  .tab-content input::placeholder {
+    color: #999;
+  }
+  
+  .tab-content button {
+    width: fit-content;
+    padding: 0.8rem 2rem;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 30px;
+    color: white;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .tab-content button:hover {
+    background-color: white;
+    color: #000;
+  }
+  
+  .direct-contact p {
+    font-size: 0.9rem;
+    color: #bbb;
+    margin-top: 1rem;
+  }
+  
+  .contact-info {
+    display: flex;
+    gap: 1rem;
+    font-size: 0.9rem;
+    color: white;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .tabs-container {
+      padding: 1rem;
+    }
+  
+    .tab-headers {
+      flex-direction: column;
+      gap: 0.8rem;
+    }
+  
+    .tab-headers button {
+      font-size: 1rem;
+      padding: 0.6rem 1rem;
+      text-align: left;
+    }
+  
+    .general-form-row {
+      flex-direction: column;
+      gap: 2rem;
+    }
+  
+    .form-group {
+      width: 100%;
+    }
+  
+    .tab-content input {
+      font-size: 0.95rem;
+    }
+  
+    .tab-content button {
+      align-self: flex-start;
+      padding: 0.7rem 1.5rem;
+    }
+  
+    .contact-info {
+      flex-direction: column;
+      gap: 0.3rem;
+    }
+  
+    .general-title {
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+  
+    .direct-contact p {
+      font-size: 0.85rem;
+    }
+  
+    .contact-info span {
+      font-size: 0.85rem;
+    }
+  }
+  

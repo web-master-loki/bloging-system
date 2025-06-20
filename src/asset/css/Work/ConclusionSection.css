@@ -1,0 +1,30 @@
+.conclusion-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 4rem 2rem;
+    background-color: #0a0a0a;
+    /* black background */
+    color: #fff;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+.conclusion-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.conclusion-divider {
+    width: 1px;
+    background-color: #fff;
+    height: auto;
+    min-height: 100px;
+}
+
+.conclusion-text {
+    max-width: 800px;
+    font-size: 1rem;
+    line-height: 1.6;
+}

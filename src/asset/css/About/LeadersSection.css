@@ -1,0 +1,43 @@
+.leaders-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    background-color: #0e0e0e;
+    padding: 50px 80px;
+    flex-wrap: wrap;
+    font-family: "Inter", sans-serif;
+  }
+  
+  .leader-card {
+    text-align: center;
+    color: #ffffff;
+    max-width: 300px;
+  }
+  
+  .leader-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    object-fit: cover;
+  }
+  
+  .title1 {
+    color: #2e6ff4;
+    font-size: 16px;
+    margin-top: 12px;
+    font-weight: 500;
+  }
+  
+  .underline {
+    height: 2px;
+    width: 60px;
+    background-color: #ffb02e;
+    margin: 8px auto;
+  }
+  
+  .leader-card h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 8px;
+  }
+  

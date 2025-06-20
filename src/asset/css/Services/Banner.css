@@ -1,0 +1,36 @@
+.our-service-section {
+    background-color: #0d0d0d;
+    color: white;
+    padding: 50px 80px;
+    margin: 0 auto;
+  }
+  
+  .service-header {
+    display: flex;
+    align-items: center;
+    gap: 12px; 
+    margin-bottom: 20px;
+  }
+  
+  .line {
+    width: 2px;
+    height: 40px;
+    background-color: white;
+  }
+  
+  .service-title {
+    font-size: 28px;
+    font-weight: 700;
+  }
+  
+  .service-icon {
+    color: white;
+    margin-top: -4px;
+  }
+  
+  .service-description {
+    font-size: 16px;
+    line-height: 1.7;
+    max-width: 960px;
+  }
+  

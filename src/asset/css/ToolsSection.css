@@ -1,0 +1,65 @@
+.tools-section {
+    background-color: #121212;
+    color: white;
+    padding: 50px 40px;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+  }
+  
+  .tools-description {
+    max-width: 1200px;
+    margin: 0 auto 40px;
+    font-size: 20px;
+    line-height: 1.6;
+  }
+  
+  .tools-divider {
+    border: none;
+    height: 1px;
+    background-color: #444;
+    max-width: 85%;
+    margin: 20px auto;
+  }
+  
+  .icons-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  .icon-row {
+    display: flex;
+    gap: 120px;
+    justify-content: center;
+  }
+  
+  .icon {
+    width: 48px;
+    height: 48px;
+    font-weight: bold;
+    color: white;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Tool-specific styling */
+  .icon-ae {
+    background-color: #2a2d7a;
+  }
+  
+  .icon-ai {
+    background-color: #a42600;
+  }
+  
+  .icon-ps {
+    background-color: #0057a8;
+  }
+  
+  .icon-figma {
+    background: linear-gradient(to bottom, #f24e1e 25%, #ff7262 25%, #a259ff 50%, #1abcfe 75%, #0acf83 100%);
+  }
+  

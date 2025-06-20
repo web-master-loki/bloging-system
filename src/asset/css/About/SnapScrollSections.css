@@ -1,0 +1,97 @@
+body::-webkit-scrollbar,
+.scroll-wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+.scroll-wrapper {
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+
+.scroll-section {
+    height: 100%;
+    width: 100%;
+    scroll-snap-align: start;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.section-dark {
+    background-color: #0a0a0a;
+    color: white;
+}
+
+.section-light {
+    background-color: #ffffff;
+    color: #111;
+}
+
+.section-video {
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.section-content {
+    max-width: 900px;
+    padding: 2rem;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.section-icon {
+    width: 60px;
+    height: auto;
+}
+
+.section-divider {
+    width: 1px;
+    height: 50px;
+    background-color: white;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.section-text {
+    font-size: 1rem;
+    line-height: 1.8;
+    max-width: 600px;
+}
+
+.video-bg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.video-overlay {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    /* optional dark overlay */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-title {
+    font-size: 3rem;
+    color: white;
+}

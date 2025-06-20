@@ -1,0 +1,35 @@
+.nut-packaging-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 40px;
+    background-color: #111;
+    color: white;
+    font-family: "Inter", sans-serif;
+  }
+  
+  .top-section img {
+    width: 100%;
+    border-radius: 12px;
+    object-fit: cover;
+  }
+  
+  .bottom-section {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .bottom-image {
+    flex: 1;
+    min-width: 45%;
+  }
+  
+  .bottom-image img {
+    width: 100%;
+    border-radius: 12px;
+    object-fit: cover;
+  }
+  

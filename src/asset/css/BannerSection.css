@@ -1,0 +1,28 @@
+.contact-banner {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 40px;
+    padding: 80px 20px;
+    box-sizing: border-box;
+    margin: 40px auto;
+    max-width: 1200px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  }
+  
+  .contact-banner-inner {
+    text-align: center;
+    color: #111;
+  }
+  
+  .contact-banner h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 16px;
+  }
+  
+  .contact-banner p {
+    font-size: 18px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  

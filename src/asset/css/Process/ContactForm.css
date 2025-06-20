@@ -1,0 +1,114 @@
+.brand-form-section {
+    background: #0a0a0a;
+    color: white;
+    padding: 60px 20px;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .form-container {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .form-container h2 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  
+  .question-group {
+    margin-bottom: 40px;
+  }
+  
+  .question-group p {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  .tag-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  
+  .tag-options span {
+    background: #1a1a1a;
+    padding: 10px 18px;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .tag-options span:hover {
+    background: #333;
+  }
+  
+  .input-row {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .input-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-group label {
+    font-size: 14px;
+    margin-bottom: 6px;
+  }
+  
+  .input-group input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #999;
+    padding: 8px 0;
+    color: white;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .cta-buttons {
+    margin: 40px 0;
+  }
+  
+  .cta-buttons button {
+    background: transparent;
+    color: white;
+    padding: 12px 30px;
+    border: 1px solid white;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .cta-buttons button:hover {
+    background: white;
+    color: black;
+  }
+  
+  .contact-bottom {
+    font-size: 13px;
+    color: #aaa;
+  }
+  
+  .contact-info {
+    margin-top: 10px;
+  }
+  
+  .contact-info a {
+    color: white;
+    margin-right: 10px;
+    text-decoration: underline;
+  }
+  
+  .contact-info span {
+    margin: 0 5px;
+    color: white;
+  }
+  

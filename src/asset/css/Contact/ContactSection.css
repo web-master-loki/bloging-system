@@ -1,0 +1,72 @@
+.contact-section {
+    background-color: #0a0a0a;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    padding: 4rem 3rem;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.contact-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+  flex-wrap: wrap;
+  border-top: 1px solid rgb(110, 110, 110);
+  padding-top: 2rem;
+}
+
+.contact-box h3,
+.address-box h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+   
+}
+ 
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-list li {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+  transition: 0.3s;
+}
+
+.contact-list .map-toggle:hover {
+  text-decoration: underline;
+}
+
+.address-content p {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6rem;
+  font-size: 0.95rem;
+  margin-bottom: 0.8rem;
+}
+
+.contact-map-bar {
+  margin-top: 2rem;
+  height: 300px;
+  background-color: #111;
+  border: 1px solid white;
+  border-radius: 24px;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .contact-grid {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .contact-map-bar {
+    height: 220px;
+  }
+}

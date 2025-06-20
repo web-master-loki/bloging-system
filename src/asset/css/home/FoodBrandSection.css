@@ -1,0 +1,57 @@
+.food-brand-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0d0d0d;
+    color: white;
+    padding: 60px 80px;
+    gap: 60px;
+    flex-wrap: wrap;
+  }
+  
+  .content-left {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .headline {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  .description-foodbrand h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .description-foodbrand ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .description-foodbrand li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .content-right {
+    flex: 1;
+    min-width: 300px;
+    text-align: center;
+  }
+  
+  .brand-image {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .tagline {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  

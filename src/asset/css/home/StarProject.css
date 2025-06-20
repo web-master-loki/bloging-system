@@ -1,0 +1,61 @@
+.project-start {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #003cb9;
+    padding: 50px 80px;
+    color: white;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .content {
+    max-width: 600px;
+  }
+  
+  .title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 12px;
+  }
+  
+  .description-start {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #e0e0e0;
+  }
+  
+  .cta-button {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 999px;
+    padding: 14px 30px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: white;
+    color: #003cb9;
+  }
+  
+  /* Mobile responsive */
+  @media (max-width: 768px) {
+    .project-start {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 40px 20px;
+    }
+  
+    .content {
+      width: 100%;
+    }
+  
+    .cta-button {
+      align-self: center;
+      margin-top: 20px;
+    }
+  }
+  

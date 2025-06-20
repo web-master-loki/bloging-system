@@ -1,0 +1,41 @@
+.brand-grid-section {
+    background-color: #0e0e0e;
+    padding: 50px 80px;
+    color: #fff;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+  }
+  
+  .description-brandlogo {
+    max-width: 1200px;
+    margin: 0 auto 40px;
+    font-size: 16px;
+    line-height: 1.6;
+    border-bottom : 1px solid rgb(57, 57, 57) ;
+    padding-bottom: 50px;
+  }
+  
+  .grid-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;
+    gap:60px;
+    flex-wrap: wrap;
+  }
+  
+  .row img {
+    width: 100px;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .row .brand-logo:hover {
+    transform: scale(1.05);
+  }
+  
